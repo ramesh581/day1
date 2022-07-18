@@ -1,0 +1,25 @@
+Http 1.1:-
+
+HTTP 1.1 allows only one request (even with request pipelining).
+
+HTTP 1.1 is textual.
+
+It uses orderd and blocking method.
+ 
+It compresses data by itself.
+
+It uses requests resource Inlining for use getting multiple pages.
+
+
+
+Http 2:-
+
+HTTP 2 allows clients to make multiple requests over one TCP connection. 
+
+Http 2 is binary.
+
+This method uses multiplexed method.
+
+It uses HPACK for data compression.
+
+It uses PUSH frame by server that collects all multiple pages.
